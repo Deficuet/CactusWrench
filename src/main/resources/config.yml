@@ -1,0 +1,4 @@
+functions:
+  main-hand: true
+  off-hand: true
+  dispenser: true

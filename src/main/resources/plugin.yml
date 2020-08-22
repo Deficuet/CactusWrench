@@ -1,0 +1,17 @@
+name: CactusWrench
+main: io.github.Deficuet.CactusWrench.CactusWrench
+version: '1.0.0'
+description: 'One of features in Carpet Mod.'
+api-version: 1.16
+author: Deficuet
+commands:
+  cactuswrench:
+    description: Toggle Cactus Wrench Functions.
+    aliases: cw
+    usage: "§2[CactusWrench] §cIncorrect argument(s).\n§a/<command> [main-hand/off-hand/dispenser] [true/false]"
+    permission: CactusWrench.cw
+    permission-message: "§2[CactusWrench] §cYou must be an OP!"
+
+permissions:
+  CactusWrench.cw:
+    default: op
